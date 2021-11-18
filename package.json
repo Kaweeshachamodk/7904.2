@@ -1,14 +1,14 @@
 {
-  "name": "PINKY_BOT-V10",
+  "name": "7904.2",
   "version": "10.0.0.5",
-  "description": "PINKY_BOT is the Modified Version of WhatsAsena, Made By @AiDarkEzio with Baileys.",
-  "main": "./PINKY_BOT-V10/bot.js",
+  "description": "mmmmm is the Modified Version of WhatsAsena, Made By @AiDarkEzio with Baileys.",
+  "main": "./7904.2/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AiDarkEzio/PINKY_BOT-V10.git"
+    "url": "git+https://github.com/kaweeshachamo/7904.2.git"
   },
   "keywords": [
     "baileys",
@@ -23,9 +23,9 @@
   "developer": "@AiDarkEzio",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/AiDarkEzio/PINKY_BOT-V10/issues"
+    "url": "https://github.com/kaweeshachamo/7904.2/issues"
   },
-  "homepage": "https://github.com/AiDarkEzio/PINKY_BOT-V10#readme",
+  "homepage": "https://github.com/kaweeshachamo/7904.2#readme",
   "dependencies": {
     "@adiwajshing/baileys": "3.5.2",
     "@lh2020/speedtest-net": "^2.1.1",
