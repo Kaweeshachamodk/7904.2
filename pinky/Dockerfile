@@ -1,8 +1,8 @@
 FROM quay.io/lyfe00011/test:beta
 
-RUN git clone https://github.com/kaweeshachamo/7904.2.git /root/WhatsAsenaDuplicated
+RUN git clone https://github.com/kaweeshachamo/7904.2 /root/WhatsAsenaDuplicated
 WORKDIR /root/WhatsAsenaDuplicated/
 RUN yarn install --no-audit
-RUN git clone https://github.com/kaweeshachamo/medias.git
+RUN git clone https://github.com/kaweeshachamo/medias
 RUN cp -R /root/Utils/* /root/WhatsAsenaDuplicated 
 CMD ["node", "bot.js"]
