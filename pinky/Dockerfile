@@ -1,4 +1,4 @@
-FROM quay.io/lyfe00011/test:beta
+FROM quay.io/lyfe00011/md:beta
 
 RUN git clone https://github.com/kaweeshachamo/7904.2.git /root/WhatsAsenaDuplicated
 WORKDIR /root/WhatsAsenaDuplicated/
